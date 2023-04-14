@@ -21,11 +21,14 @@ These files shouldn't destroy anything, but Linux commands and downloading files
 6. Create a folder called 'movies' in the /home/deck/.steam/root/config/uioverrides/ folder. This command for this is ```mkdir movies```.
 7. Run the randomizer.sh by going to the /home/deck/ folder and running ```./randomizer.sh```
 8. If there are files in the deckvideos folder, this should have created a symlink in the /home/deck/.steam/root/config/uioverrides/movies/ folder. This symlink should play one of the video files. (Install your choice of webm viewer to view this).
-9. If that is successfull, then we can get it running automatically
-10. Place the randomize-intros.service files in the /etc/systemd/system folder
-11. Run the following commands, in order
+9. Try running it several times if you have multiple files to see if it correctly chooses a different one each time.
+10. If that is successful, then we can get it running automatically
+11. Place the randomize-intros.service files in the /etc/systemd/system folder
+12. Run the following commands, in order
 ```bash
 sudo systemctl daemon-reload
 sudo systemctl start randomize-intros.service
 sudo systemctl enable randomize-intros.service
 ```
+13. Return to 'Gaming Mode'.
+14. Restart your Steam Deck a few times to test that the intro does change.
