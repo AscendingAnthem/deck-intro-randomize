@@ -19,7 +19,7 @@ These files shouldn't destroy anything, but Linux commands are scary and can des
 4. Place all of your cool Steam Deck intros in /home/deck/deckvideos. They should be different names. I just add a number to each of them, e.g. deck_startup_0.webm.
 5. Create a folder called 'uioverrides' in the /home/deck/.steam/root/config/ folder. The command for this is ```mkdir uioverrides```.
 6. Create a folder called 'movies' in the /home/deck/.steam/root/config/uioverrides/ folder. This command for this is ```mkdir movies```.
-7. Run the randomizer.sh by going to the /home/deck/ folder and running ```./randomizer.sh'```
+7. Run the randomizer.sh by going to the /home/deck/ folder and running ```./randomizer.sh```
 8. If there are files in the deckvideos folder, this should have created a symlink in the /home/deck/.steam/root/config/uioverrides/movies/ folder. This symlink should play one of the video files.
 9. If that is successfull, then we can get it running automatically
 10. Place the randomize-intros.service files in the /etc/systemd/system folder
