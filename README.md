@@ -20,7 +20,7 @@ These files shouldn't destroy anything, but Linux commands and downloading files
 5. Create a folder called 'uioverrides' in the /home/deck/.steam/root/config/ folder. The command for this is ```mkdir uioverrides```.
 6. Create a folder called 'movies' in the /home/deck/.steam/root/config/uioverrides/ folder. This command for this is ```mkdir movies```.
 7. Run the randomizer.sh by going to the /home/deck/ folder and running ```./randomizer.sh```
-8. If there are files in the deckvideos folder, this should have created a symlink in the /home/deck/.steam/root/config/uioverrides/movies/ folder. This symlink should play one of the video files.
+8. If there are files in the deckvideos folder, this should have created a symlink in the /home/deck/.steam/root/config/uioverrides/movies/ folder. This symlink should play one of the video files. (Install your choice of webm viewer to view this).
 9. If that is successfull, then we can get it running automatically
 10. Place the randomize-intros.service files in the /etc/systemd/system folder
 11. Run the following commands, in order
