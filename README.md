@@ -6,7 +6,7 @@ Okay, so custom (non-steam store) Steam Deck intros require you to have a file c
 
 ## Requirements
 - A Steam Deck
-- Recommended: A way to access the file system with a keyboard and mouse will make move files easier (I personally use SSH from my computer to my Steam Deck)
+- Recommended: A way to access the file system with a keyboard and mouse will make moving files easier (I personally use SSH from my computer to my Steam Deck)
 
 ## Before you start
 These files and commands shouldn't destroy anything, but Linux commands and downloading files from the internet is scary and can destroy everything you love. Please do not do this if you can't accept your failure and bricking of your Steam Deck.
