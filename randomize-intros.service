@@ -1,0 +1,9 @@
+[Unit]
+Description=Randomize Steam Deck intros that are user-created
+
+[Service]
+ExecStart=/home/deck/randomizer.sh
+Restart=oneshot
+
+[Install]
+WantedBy=multi-user.target
