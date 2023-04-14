@@ -2,7 +2,7 @@
 This is a way to randomize custom Steam Deck intros
 
 ## Preface
-Okay, so custom (non-steam store) Steam Deck intros require you to have a file called 'deck_startup.webm' to have your custom intro work. However, this only means you can have one at a time, and there are hundreds of great ones out there. Behold, files that I created in 
+Okay, so custom (non-steam store) Steam Deck intros require you to have a file called 'deck_startup.webm' to have your custom intro work. However, this only means you can have one at a time, and there are hundreds of great ones out there. Behold, a way of having multiple with a random one selected each time.
 
 ## Requirements
 - A Steam Deck
