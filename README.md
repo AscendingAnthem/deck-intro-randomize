@@ -15,7 +15,7 @@ These files and commands shouldn't destroy anything, but Linux commands and down
 
 1. Place the 'randomizer.sh' script in the /home/deck/ folder.
 2. Make sure the randomize.sh script has permissions to be read and executed. The command for this is ```chmod 777 randomizer.sh```
-3. Create a folder called 'deckvideos' in /home/deck/.
+3. Create a folder called 'deckvideos' in /home/deck/. The command for this is ```mkdir deckvideos```
 4. Place all of your cool Steam Deck intros in /home/deck/deckvideos. They should be different names. I just add a number to each of them, e.g. deck_startup_0.webm.
 5. Create a folder called 'uioverrides' in the /home/deck/.steam/root/config/ folder. The command for this is ```mkdir uioverrides```.
 6. Create a folder called 'movies' in the /home/deck/.steam/root/config/uioverrides/ folder. This command for this is ```mkdir movies```.
